@@ -2,7 +2,7 @@
   "name": "game-of-life-kata",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.mjs",
   "private": true,
   "scripts": {
     "test": "mocha"
@@ -20,5 +20,11 @@
   "devDependencies": {
     "mocha": "^10.0.0",
     "standard": "^17.0.0"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it"
+    ]
   }
 }
